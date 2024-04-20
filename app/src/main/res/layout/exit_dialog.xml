@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".BottomSheetFragment"
+>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="30dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="@drawable/custom_bkg"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.5"-->
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:text="@string/welcome"-->
+<!--            android:textColor="#020202"-->
+<!--            android:textSize="20sp"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:text="@string/diningtitle"-->
+<!--            android:textColor="#020202"-->
+<!--            android:textSize="24sp"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:text="@string/off"-->
+<!--            android:textSize="22sp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#FF9800"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:drawableStart="@drawable/baseline_android_24"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:text="@string/save400"-->
+<!--            android:textColor="#020202"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:drawableStart="@drawable/baseline_monetization_on_24"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/recover_prime_fee"-->
+<!--            android:textColor="#020202"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginHorizontal="20dp"-->
+<!--            android:textSize="18sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:backgroundTint="#FF9800"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/becomeprime"-->
+<!--            android:textSize="18sp"-->
+<!--            android:layout_marginHorizontal="20dp"-->
+<!--            app:cornerRadius="12dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/your_text_view_id"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/no_thanks"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="#020202"-->
+<!--            android:textSize="16sp"-->
+<!--            android:layout_marginBottom="10dp"/>-->
+
+
+
+<!--    </LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/close_dialog_iv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/crown" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

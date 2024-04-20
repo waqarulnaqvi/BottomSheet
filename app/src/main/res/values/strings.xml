@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BottomSheet</string>
+    <string name="bottom_sheet">Bottom Sheet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_details">Order Details</string>
+    <string name="welcome">Welcome Harshit,</string>
+    <string name="diningtitle">To The World of Prime Dining</string>
+    <string name="off">25% Off Guaranteed!</string>
+    <string name="save400">Save at least ₹400 in every booking</string>
+    <string name="recover_prime_fee">Recover Prime fee in the 1st booking</string>
+    <string name="becomeprime">Become Prime\n (₹56 per week)</string>
+    <string name="no_thanks">No Thanks,I will save less</string>
+</resources>
